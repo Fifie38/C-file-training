@@ -26,5 +26,5 @@ void reduc(float m, float per)
 {
     per = 1 - (per / 100);
     float new_price = m * per;
-    printf("New price : %f\n",new_price);
+    printf("New price : %.2f\n",new_price);
 }
